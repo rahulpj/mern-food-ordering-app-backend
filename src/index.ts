@@ -17,7 +17,7 @@ app.use(cors());
 app.use(express.json());
 // app.use(jwtCheck);
 app.get("/health", async (req: Request, res: Response) => {
-  res.send({ message: "Health OK!" });
+  res.status(200).send({ message: "Health OK!" });
 });
 app.use("/api/my/user", myUserRoute);
 app.listen(8081, () => {
