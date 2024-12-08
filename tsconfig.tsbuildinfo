@@ -1,1 +1,1 @@
-{"root":["./src/index.ts","./src/middleware/auth.ts","./src/middleware/validation.ts","./src/controllers/myusercontroller.ts","./src/models/user.ts","./src/routes/myuserroute.ts"],"version":"5.6.2"}
+{"root":["./src/index.ts","./src/middleware/auth.ts","./src/middleware/validation.ts","./src/controllers/myrestaurantcontroller.ts","./src/controllers/myusercontroller.ts","./src/models/restaurant.ts","./src/models/user.ts","./src/routes/myrestaurantroute.ts","./src/routes/myuserroute.ts"],"version":"5.6.2"}
